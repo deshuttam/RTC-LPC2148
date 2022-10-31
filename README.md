@@ -7,6 +7,12 @@ LPC2148 has an inbuilt RTC. LPC2148RTC can be clocked by a separate 32.768 KHz o
 
 ![image](https://user-images.githubusercontent.com/107185323/198999978-24f2ec4c-fc53-45fc-ac4f-ff3f97cf94c3.png)
 
+Requirements: Software
+* DDGen Software
+* Microvsion Keil
+
+Hardware
+* LPC2148
 
 ### Registers of LPC2148/RTC: 
 * ILR (Interrupt Location Register) 
