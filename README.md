@@ -9,23 +9,23 @@ LPC2148 has an inbuilt RTC. LPC2148RTC can be clocked by a separate 32.768 KHz o
 
 
 ### Registers of LPC2148/RTC: 
-•	ILR (Interrupt Location Register) 
-•	CTCR (Clock Tick Counter Register) 
-•	CCR (Clock Control Register) 
-•	CIIR (Counter Increment Interrupt Register) 
-•	AMR (Alarm Mask Register) 
-•	Consolidated Time Registers 
-•	CTIMEO (Consolidated Time Register 0) 
-•	CTIMEI (Consolidated Time Register 1) 
-•	CTIME2 (Consolidated Time Register 2) 
-•	PREINT (Prescalar Integer Register) 
-•	PREFRAC (Prescalar Fraction Register)
+* ILR (Interrupt Location Register) 
+* CTCR (Clock Tick Counter Register) 
+* CCR (Clock Control Register) 
+*	CIIR (Counter Increment Interrupt Register) 
+*	AMR (Alarm Mask Register) 
+*	Consolidated Time Registers 
+*	CTIMEO (Consolidated Time Register 0) 
+*	CTIMEI (Consolidated Time Register 1) 
+*	CTIME2 (Consolidated Time Register 2) 
+* PREINT (Prescalar Integer Register) 
+*	PREFRAC (Prescalar Fraction Register)
 
 ### APls designed: 
-•	To set clock source for RTC peripheral: int rtc_clock_source (int clksrc) 
-•	To Enable RTC peripheral: int rte_enable (int en) 
-•	To set RTC Time: int rtc set time (int sec, int min, int hour, int dom, int dow, int doy, int month, int year) 
-•	To read RTC Time: int rtc_read_time(int *sec, int *min, int *hour, int *dom, int *dow, int *doy, int *month, int *year)
+*	To set clock source for RTC peripheral: int rtc_clock_source (int clksrc) 
+*	To Enable RTC peripheral: int rte_enable (int en) 
+*	To set RTC Time: int rtc set time (int sec, int min, int hour, int dom, int dow, int doy, int month, int year) 
+*	To read RTC Time: int rtc_read_time(int *sec, int *min, int *hour, int *dom, int *dow, int *doy, int *month, int *year)
 
 ### Generation of device drivers: 
 The device drivers for LPC2148/RTC were generated using DDGen tool, as per the guidelines 
