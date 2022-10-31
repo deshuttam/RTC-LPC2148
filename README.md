@@ -38,12 +38,14 @@ RTS file: It includes system specification and base address of peripheral.
 The generated drivers were simulated on Keil uvisiona by writing a test application. The updated register values during the execution of the driver was verified using the Simulator in Keil Microvision.
 
 Verification results:
+
 ![image](https://user-images.githubusercontent.com/107185323/198999743-2497cba1-7dc8-4942-a40d-7b13e0f0e7c0.png)
 
 Validation of the driver: 
 After verifying the driver on simulator, it was implemented on the actual hardware i.e. LPC2148 development board. Here, the RTC peripheral on LPC2148 board was configured by setting the time and date. The designed APl's were validated using 16x2 LCD display present on LPC2148 board itself.
 
 Validation results:
+
 ![image](https://user-images.githubusercontent.com/107185323/198999792-fbf69a35-62dc-4105-8045-59e5183ee7bd.png)
 
 
